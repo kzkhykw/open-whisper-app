@@ -270,3 +270,15 @@ env/
 # *.aac
 # *.flac
 # *.ogg 
+# Whisper model cache and temporary files
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.model
+*.cache
+.cache/
+whisper_cache/
+models/
+model_cache/
