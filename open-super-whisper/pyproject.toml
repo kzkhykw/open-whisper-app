@@ -1,0 +1,22 @@
+[project]
+name = "open-super-whisper"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pynput>=1.7.6",
+    "numpy>=1.24.0",
+    "openai>=1.0.0",
+    "pyinstaller>=6.13.0",
+    "pyqt6>=6.5.0",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "pyautogui",
+    "transformers>=4.36.0",
+    "torch>=2.0.0",
+    "accelerate>=0.25.0",
+    "datasets[audio]>=2.14.0",
+    "pyobjc-framework-Cocoa>=10.0; sys_platform == 'darwin'",
+    "pyobjc-framework-cocoa>=11.0",
+]
